@@ -1,0 +1,20 @@
+# ============================================================
+# Employee Scraper — Production Dependencies
+# ============================================================
+
+# HTTP downloads
+requests>=2.31.0
+
+# Data processing
+pandas>=2.0.0
+
+# Excel file support
+openpyxl>=3.1.0      # .xlsx (Excel 2007+)
+xlrd>=2.0.1          # .xls  (Excel 97-2003)
+
+# ============================================================
+# Development / Testing Dependencies
+# ============================================================
+
+pytest>=7.4.0
+pytest-cov>=4.1.0
